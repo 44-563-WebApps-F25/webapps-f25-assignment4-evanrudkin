@@ -80,9 +80,11 @@ a {
     font-weight: bold;
 }
 
+
 a:hover {
     text-decoration: underline;
 }
+
 
 /* ---------- Hover Shadows ---------- */
 .name:hover {
