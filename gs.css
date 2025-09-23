@@ -1,0 +1,93 @@
+/* ---------- General Styles ---------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #fffdf8;
+    line-height: 1.5;
+}
+
+/* ---------- Text Types ---------- */
+.speech {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+
+.song {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    margin-left: 30px;
+    color: black;
+}
+
+.direction {
+    font-size: 14px;
+    background-color: #f0f0f0;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 8px 0;
+    color: black;
+}
+
+.direction:hover {
+    background-color: #444;
+    color: white;
+}
+
+/* ---------- Names ---------- */
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+/* Character-specific styles */
+.privatewillis { color: navy; }
+.mountararat   { color: maroon; }
+.tolloller     { color: teal; }
+.fairyqueen    { color: purple; }
+.phyllis       { color: blue; }
+.leila         { color: green; }
+.chorus        { color: darkorange; }
+
+/* ---------- Table Styling ---------- */
+table.cast {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table.cast th, table.cast td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table.cast tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.cast th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Hover Shadows ---------- */
+.name:hover {
+    text-shadow: 2px 2px 8px crimson;
+    border: 2px solid navy;
+    padding: 3px;
+    border-radius: 5px;
+}
